@@ -1,17 +1,15 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!--><html class="no-js"><!--<![endif]-->
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<title>{{{site-title}}}</title>
 	<meta name="description" content="">
-	<meta name="viewport" content="width=device-width">
-
-	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-
+	<meta name="viewport" content="width=device-width;initial-scale=1.0">
+<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 	{{#stylesheet_bundle}}/css/all.css{{/stylesheet_bundle}} 
 <!--[if lt IE 9]>
 <script src="/js/html5shiv.js"></script>
@@ -19,12 +17,40 @@
 </head>
 
 <body>
-	<header>
-		<h1>{{#upcase}}{{site-title}}{{/upcase}}</h1>
 
-		<ul class="navbar">
-			{{#navbar}}
-			<li><a href="{{{href}}}">{{label}}</a>
-				{{/navbar}}
-			</ul>
-	</header>
+	<div class="navbar navbar-inverse">
+		<div class="navbar-inner">
+			<div class="container" style="width: auto;">
+				<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</a>
+				<a class="brand" href="#">Project name</a>
+				<div class="nav-collapse">
+					<ul class="nav">
+						{{#navbar}}
+						<li><a href="{{{href}}}">{{label}}</a>
+						{{/navbar}}
+						</ul>
+						<form class="navbar-search pull-left" action="">
+							<input type="text" class="search-query span2" placeholder="Search">
+						</form>
+						<ul class="nav pull-right">
+							<li><a href="#">Link</a></li>
+							<li class="divider-vertical"></li>
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+								<ul class="dropdown-menu">
+									<li><a href="#">Action</a></li>
+									<li><a href="#">Another action</a></li>
+									<li><a href="#">Something else here</a></li>
+									<li class="divider"></li>
+									<li><a href="#">Separated link</a></li>
+								</ul>
+							</li>
+						</ul>
+					</div><!-- /.nav-collapse -->
+				</div>
+			</div><!-- /navbar-inner -->
+		</div>
