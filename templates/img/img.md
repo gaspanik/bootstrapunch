@@ -1,1 +1,0 @@
-copy bower/bootstrap/img/*
