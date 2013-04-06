@@ -4,6 +4,7 @@
   "dependencies": {
     "bootstrap": "~2.3.1",
     "requirejs": "~2.1.5",
-    "elusive-iconfont": "latest"
+    "elusive-iconfont": "latest",
+    "normalize-css": "~2.1.0"
   }
 }
