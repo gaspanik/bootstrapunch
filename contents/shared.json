@@ -1,9 +1,10 @@
 {
 	"site-title": "Bootstrapunch!",
-	"section_dummy": "Section: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
-	"aside_dummy": "Aside: Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
+	"section_dummy": "<b>Section:</b> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+	"aside_dummy": "<b>Aside:</b> Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
 	"footer-text": "Built with <a href=\"http://laktek.github.com/punch\">Punch</a> + <a href=\"http://getbootstrap.com/\">Bootstrap</a>",
 	"navbar": [
-		{"label": "Home", "href": "/"}
+		{"label": "Home", "href": "/"},
+		{"label": "About", "href": "/about"}
 	]
 }
