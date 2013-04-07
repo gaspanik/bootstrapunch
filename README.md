@@ -1,4 +1,4 @@
 bootstrapunch
 =============
 
-punch+bootstrap 0.2.4: replace requre.js > require.min.js
+punch+bootstrap 0.2.5: some changes. add sample.htaccess file.
